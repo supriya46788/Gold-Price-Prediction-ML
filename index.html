@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Price Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gold Price Prediction</h1>
+
+         <!-- img -->
+        <!-- <img src="gold.jpg" alt="Gold Bar" style="width:300px; height:auto; margin-bottom: 20px;"> -->
+
+        <form id="goldForm">
+            <label for="weight">Enter Gold Weight (in grams):</label>
+            <input type="number" id="weight" name="weight" required>
+
+            <label for="carat">Select Gold Carat:</label>
+            <select id="carat" name="carat">
+                <option value="22">22 Carat</option>
+                <option value="24">24 Carat</option>
+            </select>
+
+            <button type="submit">Calculate Price</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
